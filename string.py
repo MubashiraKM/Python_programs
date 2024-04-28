@@ -1,0 +1,10 @@
+s="my name"
+#print(s.index('z'))
+print(s.rindex('m'))
+print(s.find('m'))
+print(s.rfind('z'))
+print(s.count('m'))
+print(int(s.startswith('m')))
+print(int(s.startswith('m',5)))
+print((s.split("n")))
+print((s.partition('n')))
